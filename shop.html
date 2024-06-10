@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shop - Luminate</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  
+</head>
+<body>
+
+     <!-- Header Section -->
+     <header>
+        <div class="container">
+            <div class="header-all">
+                <div class="leftpart align-items-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="">
+                        </a>
+    
+                    </div>
+                    <div class="searchBar">
+                        <i class='bx bx-search' ></i>
+                        <input type="search" id="search" placeholder="Search products...">
+    
+                    </div>
+                    <div class="navs">
+                        <nav>
+                            <ul type="none">
+                                <li>
+                                    <a href="/">Home</a>
+                                </li>
+                                <li class="shopnav">
+                                    <a  href="shop.html" >Shop<span><i class='bx bx-chevron-down' ></i></span>
+                                    <div class="spacer"></div>
+                                      
+                                    </a>
+                                    <div class="shopnav-dropdown ">
+                                        <div class="container">
+                                            <div class="section-container">
+                                                <ul class=" dropdown-content">
+                                                    <li>
+                                                        <p>Essential Pages</p>
+                                                        <ul class="dropdown-column">
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>Simple Product</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>Variable Product</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>External Product</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>On Sale Product</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>Out of Stock</span>
+                                                                </a>
+                                                            </li>
+                                                            
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <p >Essential Pages 2</p>
+                                                        <ul class="dropdown-column">
+                                                            <li>
+                                                                <a href="">
+                                                                    <span>Product Reviews</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="cart.html">
+                                                                    <span>Cart</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="checkout.html">
+                                                                    <span>Checkout</span>
+                                                                </a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="my-account.html">
+                                                                    <span>My Account</span>
+                                                                </a>
+                                                            </li>
+                                                        </ul>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            <img style="width: 310px; height: 250px;" src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/menu-1.png" alt="">
+                                
+                                                            <span style="display: inline-block;margin-top: 5px; font-weight: 600;">
+                                                                Our Collections
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="">
+                                                            <img style="width: 310px; height: 250px;" src="	https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/menu-2.png" alt="">
+                                                            <span style="display: inline-block; margin-top: 5px; font-weight: 600;">
+                                                                <span>Explore our Blog</span>
+                                                            </span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </li>
+                                <li>
+                                    <a href="collections.html">Collections</a>
+                                </li>
+                                <li class="blognav">
+                                    <a  href="blog.html">Blog<span><i class='bx bx-chevron-down' ></i></span></a>
+                                    <div class="mini-dropdown">
+                                        <ul class="mini-dropdown-content">
+                                            <li>
+                                                <a href="">
+                                                    <span>Single Post </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span> Blog Post</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span>Post with Comments </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span> Search results</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                </li>
+                                <li class="pagesnav">
+                                    <a  href="">Pages<span><i class='bx bx-chevron-down' ></i></span></a>
+                                    <div class="mini-dropdown pages ">
+                                        <ul class="mini-dropdown-content">
+                                            <li>
+                                                <a href="about.html">
+                                                    <span>About Us </span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="contact-us.html">
+                                                    <span> Contact Us</span>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="">
+                                                    <span>404 </span>
+                                                </a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>  
+                        </nav>                       
+                    </div>
+                </div>
+                <div class="rightpart">
+                    <div id="account">
+                        <a href="">
+                            <i class='bx bxs-user' ></i>
+                        </a>
+    
+                    </div>
+                    <div id="cart">
+                        <button class="minicart-btn">
+                            <span style="margin-right: 16px;">Cart</span>
+                            <span class="minicart-badge">0</span>
+
+                        </button>
+    
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+     </header>
+    
+     <!-- Header Section -->
+
+     <!-- Shop Page Heading -->
+     <section id="Heading">
+        <div class="container">
+            <div class="heading-content">
+                <div class="section-container">
+
+                    <h1>The Shop</h1>
+                    <p>Well designed lights for your home & office environments.  <br> Our high quality lights will make your place modern. </p>
+                    <div class="category_btns">
+                        <a class="learn-more explore category_btn" href="">Home Decor</a>
+                        <a class="learn-more explore category_btn" href="">Indoor Lighting</a>
+                        <a class="learn-more explore category_btn" href="">Kitchen Lighting</a>
+                        <a class="learn-more explore category_btn" href=""> Outdoor Lightning</a>
+                    </div>
+                    
+                </div>
+                   
+            </div>
+            
+        </div>
+     </section>
+     <!-- Shop Page Heading -->
+      <!-- Shop Main -->
+     <section id="Shop">
+        <div class="container">
+            <div class="section-container">
+                <div class="shop-content">
+                    <!-- Shop Filters -->
+                    <div class="filters">
+                        <div class="filter">
+                            <h5>Categories</h5>
+                            <ul>
+                                <li>
+                                    <a href="">Floor Lamps</a>
+                                    <span>2</span>
+                                </li>
+                                <li>
+                                    <a href="">Indoor Lighting</a>
+                                    <span>8</span>
+                                </li>
+                                <li>
+                                    <a href="">Outdoor Lighting</a>
+                                    <span>2</span>
+                                </li>
+                                <li>
+                                    <a href="">Wall Lighting</a>
+                                    <span>2</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <hr>
+                        <div class="filter">
+                            <h5>Material</h5>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+                                    <a href="">Glass</a>
+                                    <span>2</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+
+                                    <a href="">Metal</a>
+                                    <span>8</span>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="" id="">
+
+                                    <a href="">Others</a>
+                                    <span>2</span>
+                                </li>
+                                
+                            </ul>
+
+                        </div>
+                        <hr>
+                        <div class="price-range">
+                            <h5>Price Range</h5>
+                            <div id="slider-range"></div>
+                            <div class="price-amount-range">
+                                Price:   $<span id="min-value"></span> - $<span id="max-value"></span>
+                                <button>Go</button>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <!-- Shop Filters -->
+                    <div class="product-grid-view">
+                        <div class="d-flex justify-content-between mb-3 align-items-center">
+                            <p class="results-count mt-3">Showing 1–12 of 27 results</p>
+                            <div class="sort-select">
+                                <i class='bx bx-chevron-down'></i>
+                                <select name="" >
+                                    <option value="" selected="selected">Default sorting</option>
+                                    <option value="">Sort by popularity</option>
+                                    <option value="">Sort by average rating</option>
+                                    <option value="">Sort by latest</option>
+                                    <option value="">Sort by price: low to high</option>
+                                    <option value="">Sort by price: high to low</option>
+                                </select>
+                            </div>
+                        </div>
+                        
+                    <!-- Products view with grid -->
+
+                          <!-- Product Preview Section -->
+                          <section id="HandPicked_Lights">
+                            <div class="handLights">
+                                <div class="handLight shop-page-product">
+                                    <div class="product-inf">
+                                        <a href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                            <span class="on-sale">Sale!</span>
+                                            <img src="	https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-28-420x560.png" alt="">
+                                            <h4>Follow Me Table Lamp</h4>
+                                        </a>
+
+                                    </div>
+                                
+                                    <div class="prices">
+                                        <del><span class="product_salePrice">$3,449.00</span></del>
+                                        <span class="product_Price">$3,200.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+            
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <a class="product-inf" href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                        <img src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-24-420x560.png" alt="">
+                                        <h4>Nans PF:80 Outdoor Ceiling Lamp</h4>
+                                    </a>
+                                    <div class="prices">
+                                        <span class="product_price">$4,900.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <a class="product-inf" href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                        <img src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-12-420x560.png" alt="">
+                                        <h4>Heavy Desk Light</h4>
+                                    </a>
+                                    <div class="prices">
+                                        <span class="product_price">$449.00</span>     
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+
+                                    </div>
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <div class="product-inf">
+                                        <a href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                            <span class="on-sale">Sale!</span>
+                                            <img src="	https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-28-420x560.png" alt="">
+                                            <h4>Follow Me Table Lamp</h4>
+                                        </a>
+
+                                    </div>
+                                
+                                    <div class="prices">
+                                        <del><span class="product_salePrice">$3,449.00</span></del>
+                                        <span class="product_Price">$3,200.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+            
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <a class="product-inf" href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                        <img src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-24-420x560.png" alt="">
+                                        <h4>Nans PF:80 Outdoor Ceiling Lamp</h4>
+                                    </a>
+                                    <div class="prices">
+                                        <span class="product_price">$4,900.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <div class="product-inf">
+                                        <a href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                            <span class="on-sale">Sale!</span>
+                                            <img src="	https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-28-420x560.png" alt="">
+                                            <h4>Follow Me Table Lamp</h4>
+                                        </a>
+
+                                    </div>
+                                
+                                    <div class="prices">
+                                        <del><span class="product_salePrice">$3,449.00</span></del>
+                                        <span class="product_Price">$3,200.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+            
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <div class="product-inf">
+                                        <a href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                            <span class="on-sale">Sale!</span>
+                                            <img src="	https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-28-420x560.png" alt="">
+                                            <h4>Follow Me Table Lamp</h4>
+                                        </a>
+
+                                    </div>
+                                
+                                    <div class="prices">
+                                        <del><span class="product_salePrice">$3,449.00</span></del>
+                                        <span class="product_Price">$3,200.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+            
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <a class="product-inf" href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                        <img src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-24-420x560.png" alt="">
+                                        <h4>Nans PF:80 Outdoor Ceiling Lamp</h4>
+                                    </a>
+                                    <div class="prices">
+                                        <span class="product_price">$4,900.00</span>
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+                                    </div>
+                                </div>
+                                <div class="handLight shop-page-product">
+                                    <a class="product-inf" href="https://demo.agnidesigns.com/luminate/product/follow-me-table-lamp/">
+                                        <img src="https://demo.agnidesigns.com/luminate/wp-content/uploads/2022/06/product-thumbnail-12-420x560.png" alt="">
+                                        <h4>Heavy Desk Light</h4>
+                                    </a>
+                                    <div class="prices">
+                                        <span class="product_price">$449.00</span>     
+                                    </div>
+                                    <div class="rating">
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bxs-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                        <span><i class='bx bx-star'></i></span>
+                                    </div>
+                                    <div class="cart_btn">
+                                        <a href="" class="addToCart">Add To Cart</a>
+
+                                    </div>
+                                </div>
+                                
+                            </div> 
+                        </section>
+                        <!-- Product Preview Section -->
+                    <!-- Products view with grid -->
+
+
+                    <!-- Pagination -->
+                        <div class="pagination">
+                            <ul class="pagination-box" >
+                                <!-- <li><a class="previous" href=""><i class='bx bx-left-arrow-alt'></i></a></li> -->
+                                <li><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><a class="next" href=""><i class='bx bx-right-arrow-alt' ></i></a></li>
+
+                            </ul>
+                        </div>
+                    <!-- Pagination -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- Shop Main -->
+
+    
+    
+    <!-- Footer -->
+    <footer>
+        <section>
+            <div class="container">
+                <div class="section-container-updated ">
+                    <hr>
+                    <div class="all-features ">
+                        
+                        <div class="feature">
+                            <img src="assets/images/features/feature-1.png" alt="">
+                            <h5>Free shipping for <br> order > $300</h5>
+                        </div>
+                        <div class="feature">
+                            <img src="assets/images/features/feature-2.png" alt="">
+                            <h5>Easy return & <br> refund policy</h5>
+                        </div>
+                        <div class="feature">
+                            <img src="assets/images/features/feature-3.png" alt="">
+                            <h5>Super fast <br> delivery</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="section-container">
+                    <hr>
+                    <div class="bottom-footer">
+                        <div class="footerInfo">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/logo.png" alt="">
+                                </a>
+            
+                            </div>
+                            <p>Unique collections of premium products <br> starting from affordable price.</p>
+                            <div class="d-flex justify-content-between mt-5">
+                                <div>
+                                    <h5>Contact Us</h5>
+                                    <p>312, Awesome Street,
+                                        <br>
+                                        Chennai, Tamilnadu,
+                                        <br>
+                                        India – 600001
+                                    
+                                    </p>
+    
+                                </div>
+                                <div>
+                                    <h5>Email Us</h5>
+                                    <p>yourmail@mail.com</p>
+                                    <p>+01 234 5678</p>
+                                    
+    
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="footer-links">
+                            <div class="links">
+                                <div class="mb-5"> 
+                                    <h5>Quick Links</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="">About Us</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Shop Locator</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Return Policy</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Contact Us</a>
+                                        </li>
+                                    </ul>
+                                
+                                </div>
+                                <div>
+                                    <h5>Account Info</h5>
+                                    <ul>
+                                        <li>
+                                            <a href="">My Account</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Order Tracking</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Your Orders</a>
+                                        </li>
+                                       
+                                    </ul>
+        
+                                </div>
+                            </div>
+                            <div >
+                                <div class="mb-5"> 
+                                    <h5>Shopping</h5>
+                                    <ul >
+                                        <li>
+                                            <a href="">Collections</a>
+                                        </li>
+                                        <li>
+                                            <a href="">New Arrivals</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Best Selling</a>
+                                        </li>
+                                        
+                                    </ul>
+                                
+                                </div>
+                                <div>
+                                    <h5>Follow Us</h5>
+                                    <ul class="media-links">
+                                        <li>
+                                            <a href=""><i class='bx bxl-instagram'></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class='bx bxl-facebook'></i></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><i class='bx bxl-twitter'></i></a>
+                                        </li>
+                                       
+                                    </ul>
+        
+                                </div>
+                            
+    
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <hr>
+                <div class="d-flex justify-content-between m-4 px-3">
+                    <div>
+                        <p style="font-weight: 100;">Copyright @ AgniHD. 2022 All rights reserved.</p>
+                    </div>
+                    <div class="payment">
+                        <img src="https://storage.googleapis.com/agni_patterns_bucket/luminate/payment-methods.png" alt="">
+                    </div>
+                </div>               
+            </div>
+        </section>     
+    </footer>
+    <!-- Footer -->
+
+<script src="/assets/js/main.js"></script>
+    
+</body>
+</html>
